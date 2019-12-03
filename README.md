@@ -9,7 +9,7 @@ git clone https://github.com/SreekanthGudisi/GitHubUserAndFollowers.git
 
 
 
-Open the projecta and run on Simulator or actual divice ,
+Open the project and run on simulator or actual divice ,
 
 1. Serach by Github account username if username not found you will get an Alert.
 
