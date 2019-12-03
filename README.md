@@ -30,11 +30,9 @@ Here I have used like
      
 2. TableView Delegate Design pattern
 
-     By using TableView heightForRowAt
+     By using heightForRowAt method
      
 3. TextField Delegate Design pattern
     
-     By using below methods, 
-            a) textFieldShouldReturn
-            b) textFieldDidBeginEditing
-            c) textFieldDidEndEditing
+     By using this textFieldShouldReturn method
+          
