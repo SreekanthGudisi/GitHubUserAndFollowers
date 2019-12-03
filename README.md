@@ -10,7 +10,7 @@ git clone https://github.com/SreekanthGudisi/GitHubUserAndFollowers.git
 
 Open the project,
 
-1. Type by Github account username if username not found you will get an Alert.
+1. Serach by Github account username if username not found you will get an Alert.
 
 2. If your name found it will go Details ViewController.  In Details Screen you can see Username, Email And Avatar. 
 
