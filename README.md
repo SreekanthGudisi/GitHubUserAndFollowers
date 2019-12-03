@@ -32,5 +32,5 @@ Open the project and run on simulator or actual divice ,
      
 3. TextField Delegate Design pattern
     
-     By using this textFieldShouldReturn method
+     By using textFieldShouldReturn method
           
