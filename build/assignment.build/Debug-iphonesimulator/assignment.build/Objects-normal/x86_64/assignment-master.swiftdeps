@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "97690dd499e12ce8c304cafb3501870c"
+build_time: [1575407787, 692451000]
+inputs:
+  "/Users/i302342/Desktop/Github/GitHubUserAndFollowers/assignment/src/Classes/ViewController.swift": [1575405635, 294022737]
+  "/Users/i302342/Desktop/Github/GitHubUserAndFollowers/assignment/src/Classes/DetailsViewController.swift": [1575403396, 570504253]
+  "/Users/i302342/Desktop/Github/GitHubUserAndFollowers/assignment/src/Models/SerachResponse/SerachResponse.swift": [1575400826, 890405050]
+  "/Users/i302342/Desktop/Github/GitHubUserAndFollowers/assignment/src/SingleTon/SharedInformation.swift": [1575405650, 170976682]
+  "/Users/i302342/Desktop/Github/GitHubUserAndFollowers/assignment/src/Classes/DetailsTableViewCell.swift": [1575400826, 888639826]
+  "/Users/i302342/Desktop/Github/GitHubUserAndFollowers/assignment/src/Helpers/UIDevice.swift": [1575400826, 889367496]
+  "/Users/i302342/Desktop/Github/GitHubUserAndFollowers/assignment/src/Models/SerachResponse/Items.swift": [1575400826, 890191101]
+  "/Users/i302342/Desktop/Github/GitHubUserAndFollowers/assignment/src/Resources/AppDelegate.swift": [1575400826, 891405875]
+  "/Users/i302342/Desktop/Github/GitHubUserAndFollowers/assignment/src/Models/UserResponse/UserResponse.swift": [1575400826, 890899002]
