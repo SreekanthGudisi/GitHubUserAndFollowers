@@ -24,12 +24,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
         // Load In ViewDidload Method
         loadViewDidloadMethod()
+        
+        // Getting IP Address
+        print(UIDevice.current.ipAddress() as Any)
     }
     
     // viewWillAppear
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
+        //Coming this VC
         activeTextField = searchTextFileld
         moveTextField(textfield: activeTextField!, moveDistance: -100, up: true)
     }
