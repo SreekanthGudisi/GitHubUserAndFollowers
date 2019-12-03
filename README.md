@@ -17,14 +17,12 @@ Open the project and run on simulator or actual divice ,
 
 3. If user has followers, you can see list of followers in tableview like followers Name and Avatar.
 
-
 // Design Pattern
- 
 Here I have used like
 
 1. SingleTon Design pattern
 
-     By Storing API's response into SharedInformation class
+     By storing API's response into SharedInformation class
      
 1. Decorator Design pattern.
      
@@ -36,7 +34,7 @@ Here I have used like
      
 3. TextField Delegate Design pattern
     
-     By using thi smethods, 
+     By using below methods, 
             a) textFieldShouldReturn
             b) textFieldDidBeginEditing
             c) textFieldDidEndEditing
