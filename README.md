@@ -18,6 +18,7 @@ Open the project and run on simulator or actual divice ,
 3. If user has followers, Here I have given condition to show list of followers.
 
      a) The conditon is: GitHub user has more than 100 repos and 100 followers, then only Im showing the follower details (like  Name and Avatar).
+     b) The API is : https://api.github.com/search/users?q=\(userName)+repos:>100+followers:>100 . So in serach screen type tom as userName.
 
 // Used Design Patterns like
 1. SingleTon Design Pattern
