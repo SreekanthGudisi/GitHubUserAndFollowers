@@ -22,31 +22,32 @@ Open the project and run on simulator or actual divice,
      b) The API is : https://api.github.com/search/users?q=\(userName)+repos:>100+followers:>100 . So in serach screen, type tom as userName.
 
 // Used Design Patterns like :
-     1. SingleTon Design Pattern
 
-          By storing API's response into SharedInformation class
+   1. SingleTon Design Pattern
 
-     1. Decorator Design Pattern.
+         By storing API's response into SharedInformation class
 
-          By using Extension 
+   2. Decorator Design Pattern.
 
-     2. TableView Delegate Design Pattern
+         By using Extension 
 
-          By using heightForRowAt method
+   3. TableView Delegate Design Pattern
 
-     3. TextField Delegate Design Pattern
+         By using heightForRowAt method
 
-          By using textFieldShouldReturn method
+   4. TextField Delegate Design Pattern
+
+         By using textFieldShouldReturn method
           
 
 // Cache system for all the images :
 
-       I have stroed all images Cache into dictonary from API call. Once API is calling all images will save into cache into dictonary. Next time onwords showing images from Cache. So no need of loading all images from API. 
+   I have stroed all images Cache into dictonary from API call. Once API is calling all images will save into cache into dictonary. Next time onwords showing images from Cache. So no need of loading all images from API. 
    
 
 // Lazy loading
 
-       Doing lazy loading also to reduce the memory management.
+   Doing lazy loading also to reduce the memory management.
 
 
 
