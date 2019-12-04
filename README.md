@@ -9,7 +9,7 @@ git clone https://github.com/SreekanthGudisi/GitHubUserAndFollowers.git
 
 
 
-Open the project and run on simulator or actual divice ,
+Open the project and run on simulator or actual divice,
 
 1. Serach by Github account username if username not found you will get an Alert.
 
@@ -21,7 +21,7 @@ Open the project and run on simulator or actual divice ,
      
      b) The API is : https://api.github.com/search/users?q=\(userName)+repos:>100+followers:>100 . So in serach screen, type tom as userName.
 
-// Used Design Patterns like
+// Used Design Patterns like :
 1. SingleTon Design Pattern
 
      By storing API's response into SharedInformation class
@@ -39,7 +39,7 @@ Open the project and run on simulator or actual divice ,
      By using textFieldShouldReturn method
           
 
-Cache :
+// Cache :
 
 a) I have stroed all images Cache into dictonary from API call. Once API is calling all images will save into cache into dictonary. Next time onwords showing images from Cache. So no need of loading all images from API. 
 
