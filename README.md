@@ -16,7 +16,7 @@ Open the project and run on simulator or actual divice ,
 2. If your name found it will go Details ViewController.  In Details Screen you can see Username, Email And Avatar. 
 
 3. If user has followers, Here I have given condition to show list of followers.
-     a) Which GitHub User has 100 repos and 100 followers you can see list of followers in tableview like followers Name and Avatar.
+     a) Which GitHub User has 100 repos and 100 followers those can see list of followers in tableview like followers Name and Avatar.
 
 // Used Design Patterns like
 1. SingleTon Design Pattern
