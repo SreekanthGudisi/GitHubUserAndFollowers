@@ -44,3 +44,7 @@ Open the project and run on simulator or actual divice,
 a) I have stroed all images Cache into dictonary from API call. Once API is calling all images will save into cache into dictonary. Next time onwords showing images from Cache. So no need of loading all images from API. 
 
 b) Doing lazy loading also to reduce the memory management.
+
+
+
+// Look at Video and Screen shots from Image folder
