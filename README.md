@@ -21,7 +21,7 @@ Open the project and run on simulator or actual divice,
      
      b) The API is : https://api.github.com/search/users?q=\(userName)+repos:>100+followers:>100 . So in serach screen, type tom as userName.
 
-**Used Design Patterns like :
+**Used Design Patterns like :**
 
    1. SingleTon Design Pattern
 
