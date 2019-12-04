@@ -39,7 +39,7 @@ Open the project and run on simulator or actual divice,
      By using textFieldShouldReturn method
           
 
-// Cache :
+// Cache system for all the images :
 
 a) I have stroed all images Cache into dictonary from API call. Once API is calling all images will save into cache into dictonary. Next time onwords showing images from Cache. So no need of loading all images from API. 
 
