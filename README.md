@@ -17,7 +17,7 @@ Open the project and run on simulator or actual divice ,
 
 3. If user has followers, Here I have given condition to show list of followers.
 
-     a) GitHub User has more than 100 repos and followers those can see list of followers in tableview like followers Name and Avatar.
+     a) The conditon is: GitHub user has more than 100 repos and 100 followers, then only Im showing the follower details (like  Name and Avatar).
 
 // Used Design Patterns like
 1. SingleTon Design Pattern
@@ -36,3 +36,5 @@ Open the project and run on simulator or actual divice ,
     
      By using textFieldShouldReturn method
           
+
+Screenshots:
