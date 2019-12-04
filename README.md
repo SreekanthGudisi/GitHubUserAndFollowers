@@ -13,7 +13,7 @@ Open the project and run on simulator or actual divice ,
 
 1. Serach by Github account username if username not found you will get an Alert.
 
-2. If your name found it will go Details ViewController.  In Details Screen you can see Username, Email And Avatar. 
+2. If your name found it will go to Details ViewController.  In Details Screen you can see Username, Email And Avatar. 
 
 3. If user has followers, Here I have given condition to show list of followers.
 
