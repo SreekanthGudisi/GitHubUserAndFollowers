@@ -52,4 +52,4 @@ Open the project and run on simulator or actual divice,
 
 
 
-**Look at Video and Screen shots from Image folder **
+**Look at Video and Screen shots from Image folder**
