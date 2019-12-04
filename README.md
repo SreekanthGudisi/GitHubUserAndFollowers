@@ -5,7 +5,7 @@ This app build on using Xcode version 11.2.1 , Swift 5 and iOS version 12.4 .
 
 To run this app, open terminal and clone this app by using below command
 
-    **git clone https://github.com/SreekanthGudisi/GitHubUserAndFollowers.git**
+    git clone https://github.com/SreekanthGudisi/GitHubUserAndFollowers.git
 
 
 
