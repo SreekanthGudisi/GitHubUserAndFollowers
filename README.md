@@ -40,16 +40,16 @@ Open the project and run on simulator or actual divice,
          By using textFieldShouldReturn method
           
 
-     // Cache system for all the images :
+// Cache system for all the images :
 
    I have stroed all images Cache into dictonary from API call. Once API is calling all images will save into cache into dictonary. Next time onwords showing images from Cache. So no need of loading all images from API. 
    
 
-     // Lazy loading
+// Lazy loading
 
    Doing lazy loading also to reduce the memory management.
 
 
 
 
-     // Look at Video and Screen shots from Image folder
+// Look at Video and Screen shots from Image folder
