@@ -22,21 +22,21 @@ Open the project and run on simulator or actual divice,
      b) The API is : https://api.github.com/search/users?q=\(userName)+repos:>100+followers:>100 . So in serach screen, type tom as userName.
 
 // Used Design Patterns like :
-1. SingleTon Design Pattern
+     1. SingleTon Design Pattern
 
-     By storing API's response into SharedInformation class
-     
-1. Decorator Design Pattern.
-     
-     By using Extension 
-     
-2. TableView Delegate Design Pattern
+          By storing API's response into SharedInformation class
 
-     By using heightForRowAt method
-     
-3. TextField Delegate Design Pattern
-    
-     By using textFieldShouldReturn method
+     1. Decorator Design Pattern.
+
+          By using Extension 
+
+     2. TableView Delegate Design Pattern
+
+          By using heightForRowAt method
+
+     3. TextField Delegate Design Pattern
+
+          By using textFieldShouldReturn method
           
 
 // Cache system for all the images :
