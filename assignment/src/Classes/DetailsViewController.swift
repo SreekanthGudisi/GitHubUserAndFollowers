@@ -10,6 +10,21 @@ import UIKit
 
 class DetailsViewController: UIViewController {
     
+    static func storeImage(urlstring: String, img: UIImage) {
+        
+        let path = NSTemporaryDirectory().appending(UUID().uuidString)
+        let url = URL(fileURLWithPath: path)
+        let data = img.jpegData(compressionQuality: 0.7)
+        try? data?.write(to: url)
+        
+        var dict = UserDefaults.standard.object(forKey: "ImageCache") as? [String : String]
+        if dict == nil {
+            dict = [ String: String]()
+        }
+        dict![urlstring] = path
+        UserDefaults.standard.set(dict, forKey: "ImageCache")
+    }
+    
     // IBOutlets
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var userNameLabel: UILabel!
@@ -96,9 +111,16 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
         
         let tableViewData = items[indexPath.row]
         let url = URL(string: tableViewData.avatar_url!.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!)
-        if let cachedImage = imageCache.object(forKey: url!.absoluteString as NSString) {
-            (cell as? DetailsTableViewCell)?.followersImageView.image = cachedImage
-            return
+        // Checking Cache
+        if let dict = UserDefaults.standard.object(forKey: "ImageCache") as? [String:String]{
+            if let path = dict[(url!.absoluteString as NSString) as String] {
+                if let data = try? Data(contentsOf: URL(fileURLWithPath: path)) {
+                    let img = UIImage(data: data)
+                    // If cache is there, Loading into cell from Cache
+                    (cell as? DetailsTableViewCell)?.followersImageView.image = img
+                    return
+                }
+            }
         }
         //lazy loading
         let session = URLSession.shared
@@ -109,8 +131,10 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
             DispatchQueue.main.async {
                 NSLog("cell number \(indexPath.row)")
                 if let image = UIImage(data: data!) {
+                    // calling from API
                     (cell as? DetailsTableViewCell)?.followersImageView.image = image
-                    self.imageCache.setObject(image, forKey: url!.absoluteString as NSString)
+                    // Storinginto into Cache
+                    DetailsViewController.storeImage(urlstring: (url!.absoluteString as NSString) as String, img: image)
                 }
             }
         }
