@@ -42,7 +42,7 @@ Open the project and run on simulator or actual divice,
 
 **Cache system for all the images :**
 
-   I have stroed all images Cache into dictionary from API call. Once API is calling all images will save into cache into dictionary. Next time onwords showing images from Cache. So no need of loading all images from API. 
+   I have stroed all images Cache into dictionary from API call. Once API is calling all images will save into images of cache dictionary. Next time onwords showing images from Cache. So again no need of loading all images from API. 
    
 
 **Lazy loading :**
